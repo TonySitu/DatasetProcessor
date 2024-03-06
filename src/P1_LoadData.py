@@ -1,7 +1,7 @@
 def load_dataset() -> dict:
     map_genre = {}
 
-    with open("google_books_dataset.csv", "r") as dataset_file:
+    with open("../resources/google_books_dataset.csv", "r") as dataset_file:
         next(dataset_file)
 
         for line in dataset_file:
