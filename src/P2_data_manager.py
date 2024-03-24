@@ -1,6 +1,3 @@
-from P1_load_data import load_dataset
-
-
 def get_books_by_category(map_genre: dict, genre: str) -> int:
     """
     Function returns the number of books associated by the defined
@@ -63,4 +60,3 @@ def get_books_by_rating(map_genre: dict, rating: float) -> int:
         print(f"{book_number}: {book_details}")
 
     return number_of_books
-
