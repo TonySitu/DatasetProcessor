@@ -1,4 +1,10 @@
 def load_dataset() -> dict:
+    """
+    Function parses lines of a csv file of book details into a dictionary that has book genre's
+    as keys and a list of books as the value. Books are stored as a dict (will change later).
+
+    :return: dictionary that contains a list of books to their respective genre's
+    """
     map_genre = {}
 
     with open("../resources/google_books_dataset.csv", "r") as dataset_file:
